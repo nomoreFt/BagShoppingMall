@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.font{
+	font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+}
+
+.line{
+	margin-top : 10px;
+	margin-bottom: 10px;
+}
+
+#form{
+	margin-top:5%;
+	margin-left:40%;
+}
+.text{
+	width: 321px;
+	height: 45px;
+	padding: 2px 2px 2px 10px;
+	border: 1px solid #ddd;
+	color: #333;
+	font-size: 14px;
+	line-height: 45px;
+	letter-spacing: 0.08em;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#btn{
+margin-top : 5px;
+width: 60px;
+height: 100px;
+font-size: 1.1em;
+background-color: black;
+color: white;
+border-radius: 10px;
+
+}

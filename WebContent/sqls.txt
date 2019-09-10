@@ -1,0 +1,114 @@
+create table bags(
+num NUMBER(4) PRIMARY KEY,
+bag_src varchar2(300),
+bag_name varchar2(20),
+bag_price varchar2(20),
+bag_link varchar2(300)
+);
+
+CREATE SEQUENCE num_SEQ INCREMENT BY 1 START WITH 1;
+
+insert into bags values (num_SEQ.NEXTVAL,'bag1.png','prada','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag2.png','gucci','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag3.png','dongmyo','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag4.png','haneda','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag5.png','pagoda','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag6.png','dong','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag7.png','jongro','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag8.png','daily','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag9.png','pink','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag10.png','moon','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag11.png','combi','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag12.png','round','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag13.png','mini','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag14.png','bagpack','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag15.png','pinkpink','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag16.png','minimi','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag17.png','square','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag18.png','zz','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag19.png','mordern','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag20.png','hihello','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag21.png','luzzi','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag22.png','single','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag23.png','simple','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag24.png','cuty','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag25.png','pretty','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag26.png','handsome','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag27.png','hahaha','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag28.png','lol','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag29.png','half','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag30.png','hohoho','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag31.png','kikiki','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag32.png','soft','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag33.png','sandy','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag34.png','shape','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag35.png','lalala','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag36.png','asia','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag37.png','main','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag38.png','mode','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag39.png','cross','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag40.png','radia','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag41.png','best','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag42.png','ruru','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag43.png','monomo','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag44.png','gabang','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag45.png','itbank','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag46.png','paris','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag47.png','check','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag48.png','item','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag49.png','lucky','10000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag50.png','rainbow','20000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag51.png','sale','50000','bagOut.jsp');
+insert into bags values (num_SEQ.NEXTVAL,'bag52.png','young','10000','bagOut.jsp');
+
+
+
+select * from bags;
+
+select * from bags where bag_name = 'prada';
+
+drop table bags;
+
+
+select * from bags;
+
+
+CREATE TABLE board(
+    bNum NUMBER PRIMARY KEY,
+    bTitle VARCHAR2(100) NOT NULL,
+    bContents VARCHAR2(4000) NOT NULL,
+    bHit_cnt NUMBER NOT NULL,
+    bDate VARCHAR2(20) NOT NULL,
+    bId VARCHAR2(30) NOT NULL
+    ); 
+    
+    CREATE SEQUENCE bNum_SEQ INCREMENT BY 1 START WITH 1;
+    
+    insert into board values (bNum_SEQ.NEXTVAL,'글의제목','글의 내용',1000,'작성일','작성자');
+    insert into board values (bNum_SEQ.NEXTVAL,'글의제목','글의 내용',1000,'작성일','작성자');
+    insert into board values (bNum_SEQ.NEXTVAL,'글의제목','글의 내용',1000,'작성일','작성자');
+   
+    
+     COMMENT ON COLUMN board.bNum IS '글번호';
+    COMMENT ON COLUMN board.bTitle IS '글제목';
+    COMMENT ON COLUMN board.bContents IS '내용';
+    COMMENT ON COLUMN board.bHit_cnt IS '조회수';
+    COMMENT ON COLUMN board.bDate IS '작성일';
+    COMMENT ON COLUMN board.bId IS '작성자';
+    
+    
+    CREATE TABLE members(
+    id VARCHAR2(20) NOT NULL,
+    pw VARCHAR2(20) NOT NULL,
+    name VARCHAR2(20) NOT NULL,
+    tel NUMBER(20) NOT NULL,
+    addr VARCHAR2(30) NOT NULL,
+    accname VARCHAR2(20),
+    accbank VARCHAR2(20),
+    accnum VARCHAR2(20),
+    PRIMARY KEY(id)
+);
+INSERT INTO members values('guest','1004','김현우',1004,'주소','은행명','은행','계좌');
+
+SELECT * FROM members;
+    

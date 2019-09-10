@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+h3 {
+   /* font-size: 25px; */
+    margin-right: 10px;
+}
+
+#loginForm{
+margin-top:5%;
+margin-left:35%;
+position: absolute;
+}
+
+.text{
+width: 321px;
+height: 45px;
+padding: 2px 2px 2px 10px;
+border: 1px solid #ddd;
+color: #333;
+font-size: 14px;
+line-height: 45px;
+letter-spacing: 0.08em;
+font-weight: normal;
+}
+
+#loginbtn{
+background-color : black;
+width: 335px;
+height: 50px;
+margin-left: 92px;
+font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+color: white;
+border-radius: 8px;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left : 30%;
+}
+
+#foot{
+font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+margin-left : 65%;
+}
+
+#table{
+margin-left: 13%;
+}
+
+.id{
+width:80px;
+margin-right:20px;
+font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+font-size: 20px;"
+}
+
+#welcome{
+display: block;
+clear: both;
+margin: 0 0 30px;
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+color: #999;
+letter-spacing: -0.03em;
+margin-left : 30%;
+}
+
+#head{
+display: block;
+clear: both;
+margin-bottom : 10px;
+margin-left : 30%;
+border-bottom: 0;
+text-align: center;
+font-size: 35px;
+font-weight: 400;
+color: #333;
+letter-spacing: -0.03em;
+}

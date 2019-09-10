@@ -1,0 +1,80 @@
+@charset "UTF-8";
+ 
+.Form{
+	margin-left:30%;
+	margin-right:30%
+	
+	/* position: static; */
+}
+#TextArea{
+	display: block;
+	clear: both;
+	margin-left : 10%
+	margin-bottom : 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+	letter-spacing: -0.03em;
+
+}
+
+.table{
+	/* padding-left : 20%; */
+	font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+	 float: center;
+	 width: 730px;
+}
+
+h3{
+	margin-left: 8%;
+	font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+	font-size: 20px;
+	
+}
+.line{
+	margin-bottom: 5%;
+}
+
+.btn{
+	background-color : black;
+	width: 300px;
+	height: 50px;
+	font-family: 함초롬돋움,NanumGothic,돋움,Dotum;
+	color: white;
+	border-radius: 8px;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 30%;
+}
+#sang_img{
+	width: 150px;
+	height: 150px;
+}
+table.table {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+  margin : 20px 10px;
+ 
+  
+}
+table.table th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: center;
+    text-align : center;
+    align-content : center;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+}
+table.table td {
+    width: 30px;
+    padding: 10px;
+    vertical-align: center;
+    border-bottom: 1px solid #ccc;
+}
