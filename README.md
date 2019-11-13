@@ -11,6 +11,9 @@ Small Project for learning servlet,jsp
 ![깃7](https://user-images.githubusercontent.com/37995817/64584102-8f280880-d3ce-11e9-963b-fa55b748baf5.PNG)
 ![깃8](https://user-images.githubusercontent.com/37995817/64584103-8fc09f00-d3ce-11e9-8496-deb30866fe6b.PNG)
 ![깃9](https://user-images.githubusercontent.com/37995817/64584104-8fc09f00-d3ce-11e9-9b28-f7c0b97b46f3.PNG)
+![판다백 gif1 메인](https://user-images.githubusercontent.com/37995817/68726546-209d3c00-0605-11ea-8e2d-25fad5d00538.gif)
+![판다백 2](https://user-images.githubusercontent.com/37995817/68726471-e895f900-0604-11ea-8503-36c5c1f034a9.gif)
+![판다백 구매하기 gif](https://user-images.githubusercontent.com/37995817/68726922-4840d400-0606-11ea-942b-148114ece97b.gif)
 
 ![깃10](https://user-images.githubusercontent.com/37995817/64584105-8fc09f00-d3ce-11e9-8dc7-f4a44c3ce706.PNG)
 ![깃11](https://user-images.githubusercontent.com/37995817/64584108-8fc09f00-d3ce-11e9-9bbd-03c56a924ed2.PNG)
